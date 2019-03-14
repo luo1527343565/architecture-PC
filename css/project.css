@@ -33,7 +33,7 @@
 }
 #content>div>ul>li>a{
     text-decoration:none;
-    color:black;
+    color:#333;
 }
 .xiajiantou_css{
     position:relative;
@@ -143,6 +143,7 @@
     width: 26px;
     margin: 10px 0 5px;
 }
+/*内容主体*/
 #neirong{
     position:relative;
     margin:66px auto;
@@ -194,6 +195,9 @@
 .right_neirong .table2>ul>li {
     border-bottom: 1px solid #dedede;
 }
+.right_neirong .table2>ul>li:last-child{
+    border:none;
+}
 .right_neirong .table2>ul>li>a{
     display: block;
     line-height: 52px;
@@ -227,11 +231,18 @@
     color: #333;
 	margin:20px 0 15px 0;
 }
+.div_img>p{
+    line-height: 28px;
+    color: #666666;
+    margin-top:5px
+}
 .pingjia1{
     margin-top:7px
 }
 .span3{
     margin:0 60px 0 25px;
+    color:#999999;
+    font-size: 14px;
 }
 .span3>img{
     position:absolute;
@@ -239,6 +250,8 @@
 }
 .span4{
     margin-left:30px;
+    color:#999999;
+    font-size: 14px;
 }
 .span4>img{
     position:absolute;
@@ -350,6 +363,266 @@
 .more:hover{
     background: #333;
     color: #fff;
+}
+.form1{
+    max-width:775px;
+	height:449px;
+	border:1px solid #d9d9d9;
+	margin-top:40px;
+	padding:2px;
+}
+.form2{
+    width:767px;
+	height:446px;
+    border:1px solid #d9d9d9;
+}
+.form3{
+    margin-top: 54px;
+    border: 1px solid #d9d9d9;
+    padding: 2px;
+}
+.form4{
+    padding: 30px 0;
+    text-align: center;
+    cursor: pointer;
+    border:1px solid #d9d9d9;
+}
+.form5{
+    margin-top:25px;
+}
+.form5>div{
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 60px;
+    border: 1px solid #d9d9d9;
+    padding: 2px;
+}
+.form5>div>div{
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    border:1px solid #d9d9d9;
+}
+.form5>div>div>h2{
+    background: #fff;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    width: 123px;
+    margin: -16px auto 40px auto;
+    text-align: center;
+}
+.form5>ul{
+    list-style:none;
+}
+.form5>ul>li{
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+}
+.form5>ul>li>img{
+    display:block;
+    width:100%;
+    border:0
+}
+.form5>ul>li>a{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.form5>ul>li>a>span{
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: block;
+    line-height: 44px;
+}
+.span5{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    display: block;
+    line-height: 44px;
+}
+.form5>a{
+    line-height: 44px;
+    padding: 0;
+    height: 44px;
+    text-align: center;
+    display: block;
+    background: #f2f2f2;
+    color: #666666;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.form5>a:hover{
+    background: #333;
+    color: white;
+}
+.form6{
+    margin-top: 60px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(217, 217, 217);
+    border-image: initial;
+    padding: 2px;
+}
+.form6>div{
+    height: 565px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(217, 217, 217);
+    border-image: initial;
+    position: relative;
+}
+.remenbang{
+    width: 90%;
+    height: 43px;
+    margin: 0 auto;
+    position: relative;
+}
+.form6>div>div>span{
+    cursor: pointer;
+    font-size: 16px;
+    width: 31.3%;
+    text-align: center;
+    display: inline-block;
+    line-height: 47px;
+    color: #666;
+    font-weight: bold;
+}
+.form6>div>div:nth-child(2){
+    width: 120px;
+    position: absolute;
+    left: 11px;
+}
+.form6>div>div:nth-child(3){
+    width: 120px;
+    position: absolute;
+    left: 112px;
+    margin-top: 0px;
+}
+.form6>div>div:nth-child(4){
+    width: 120px;
+    position: absolute;
+    left: 212px;
+}
+.remenbang_img{
+    opacity:0;
+    transition: all 1s;
+}
+.remenbang_img2{
+    opacity: 1;
+}
+.form6>div>ul{
+    margin-top: 30px;
+    padding: 0;
+    list-style: none;
+}
+.form6>div>ul>div>li{
+    height: 82px;
+    clear: both;
+    width: 83%;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+.span6{
+    float: left;
+}
+.span6>img{
+    width: 101px;
+    cursor: pointer;
+}
+.span7{
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    width: 56%;
+    margin-top: 10px;
+    float:right;
+}
+.remenbang_ul{
+    position: absolute;
+    background:#fff;
+}
+/* .form6>div>a{
+    text-align: center;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 32px 0;
+}
+.form6>div>a>span{
+    width: 72px;
+    display: inline-block;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #616161;
+    cursor: pointer;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xuetanlibao{
+    background-image:url("../picture/package.png");
+    height:77px;
+    width:77px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 999;
 }
 /*底部*/
 #dibu{
@@ -515,91 +788,3 @@
     color: #999;
     font-size: 14px;
 }
-.form1{
-    max-width:775px;
-	height:449px;
-	border:1px solid #d9d9d9;
-	margin-top:40px;
-	padding:2px;
-}
-.form2{
-    width:767px;
-	height:446px;
-    border:1px solid #d9d9d9;
-}
-.form3{
-    margin-top: 54px;
-    border: 1px solid #d9d9d9;
-    padding: 2px;
-}
-.form4{
-    padding: 30px 0;
-    text-align: center;
-    cursor: pointer;
-    border:1px solid #d9d9d9;
-}
-.form5{
-    margin-top:25px;
-}
-.form5>div{
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 60px;
-}
-.form5>div>div{
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    border:1px solid #d9d9d9;
-}
-.form5>div>div>h2{
-    background: #fff;
-    color: #333333;
-    font-size: 18px;
-    font-weight: bold;
-    width: 123px;
-    margin: -16px auto 40px auto;
-    text-align: center;
-}
-.form5>ul{
-    list-style:none;
-}
-.form5>ul>li{
-    margin-bottom: 16px;
-    position: relative;
-    overflow: hidden;
-}
-.form5>ul>li>img{
-    display:block;
-    width:100%;
-}
-.form5>ul>li>a{
-    position:absolute;
-}
-/*登录*/
-.denglu{
-    text-align:center;
-    position:relative;
-}
-.denglu>img{
-    width:100%;
-}
-.denglu>div{
-    width:460px;
-    height:384px;
-    position: absolute;
-    left: 30rem;
-    top: 5rem;
-    background:#fff;
-}
-.denglu>div>img{
-    margin-top:10px;
-}
-.denglu>div>input{
-    display:block;
-    margin: 0 auto;
-}
-/*注册*/
